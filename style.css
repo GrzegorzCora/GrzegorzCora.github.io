@@ -95,7 +95,7 @@ h2
   
 }
 .baner {
-  background-image: url(OBRAZY/baner4.jpg);
+  background-image: url(./Obrazy/baner.jpg);
   background-size: cover;
   height: 20rem;
   display: grid;
