@@ -1,0 +1,192 @@
+:root{
+  scroll-behavior: smooth;
+}
+@keyframes topToBottomSlide {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0%;
+  }
+  100% {
+      opacity: 100%;
+      transform: translateY(0%);
+    }
+  }
+
+@font-face {
+  font-family: roboto;
+  src: url(Fonts/Merriweather-Regular.ttf);
+  font-style: normal;
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+  }
+body{
+  min-height: 100vh;
+  background: linear-gradient(#3c3c3c,#787878);
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#3c3c3c ;
+  border-radius: 1rem;
+}
+header .logo
+{
+  color: #f0f0f0 ;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #f0f0f0 ;
+  border-radius: 20px;
+  font-weight: 500;
+}
+header ul li a:hover
+{
+  font-weight: bold;
+}
+section, footer {
+  background-color: #f0f0f0;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 1rem;
+  color: black;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+h2
+{
+  font-weight: 500;
+  font-size: 1.5em;
+  
+}
+.baner {
+  background-image: url(OBRAZY/baner4.jpg);
+  background-size: cover;
+  height: 20rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+
+}
+
+#Historia {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+}
+
+#Pielęgnacja {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+}
+
+#Galeria {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+}
+
+#Sztuczki {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+}
+
+#Anim {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+}
+
+#Stopka {
+  animation: topToBottomSlide 0.6s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: 0.3s;
+  text-align: center;
+
+}
+
+#container{
+  text-align: center;
+}
+
+#Galeria img {
+  border-radius: 1rem;
+  width: 33%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.film{
+  margin: 0%;
+  padding: 0%;
+  display: block;
+  
+
+}
+
+.tekst{
+  text-align: center;
+  display: block;
+  
+}
+
+.sztuczki{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.left{
+  padding-right: 20px;
+  
+}
+
+.right{
+  padding-left: 20px;
+  
+}
+
+
+
